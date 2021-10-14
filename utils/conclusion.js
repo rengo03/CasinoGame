@@ -8,7 +8,7 @@ function conclusion(){
         double.style.setProperty('font-size', '2rem' );
         double.innerHTML = 'Retry:D';
         money.innerHTML = '';
-        black.disable = true;
-        red.disable = true;
+        black.disabled = true;
+        red.disabled = true;
     }
 }
