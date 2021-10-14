@@ -6,7 +6,7 @@ function conclusion(){
     else{
         score.innerHTML = '0';
         double.style.setProperty('font-size', '2rem' );
-        double.innerHTML = 'you lost all your money :D';
+        double.innerHTML = 'teapa :D';
         money.innerHTML = '';
     }
 }
