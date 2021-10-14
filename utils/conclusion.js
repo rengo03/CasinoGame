@@ -6,7 +6,9 @@ function conclusion(){
     else{
         score.innerHTML = '0';
         double.style.setProperty('font-size', '2rem' );
-        double.innerHTML = 'teapa :D';
+        double.innerHTML = 'Retry:D';
         money.innerHTML = '';
+        black.disable = true;
+        red.disable = true;
     }
 }

@@ -61,137 +61,65 @@ function arrayProps(){
 function changeImage(x, position){
     if(x === 0){
         if(position === 5){
-        img5.innerHTML= `
-            <div class="history-images img5">
-                <img src="images/back-card.jpg" alt="">
-            </div>`;
+        img5.innerHTML= `<img src="images/back-card.jpg" alt="">`;
         } else if(position === 4){
-            img4.innerHTML= `
-                <div class="history-images img4">
-                    <img src="images/back-card.jpg" alt="">
-                </div>`;
+            img4.innerHTML= `<img src="images/back-card.jpg" alt="">`;
         } else if(position === 3){
-            img3.innerHTML= `
-                <div class="history-images img3">
-                    <img src="images/back-card.jpg" alt="">
-                </div>`;
+            img3.innerHTML= `<img src="images/back-card.jpg" alt="">`;
         } else if(position === 2){
-            img2.innerHTML= `
-                <div class="history-images img2">
-                    <img src="images/back-card.jpg" alt="">
-                </div>`;
+            img2.innerHTML= `<img src="images/back-card.jpg" alt="">`;
         } 
     }
     else if(x === 1){
         if(position === 5){
-        img5.innerHTML= `
-            <div class="history-images img5">
-                <img src="images/spades.jpg" alt="">
-            </div>`;
+        img5.innerHTML= `<img src="images/spades.jpg" alt="">`;
         } else if(position === 4){
-            img4.innerHTML= `
-                <div class="history-images img4">
-                    <img src="images/spades.jpg" alt="">
-                </div>`;
+            img4.innerHTML= `<img src="images/spades.jpg" alt="">`;
         } else if(position === 3){
-            img3.innerHTML= `
-                <div class="history-images img3">
-                    <img src="images/spades.jpg" alt="">
-                </div>`;
+            img3.innerHTML= `<img src="images/spades.jpg" alt="">`;
         } else if(position === 2){
-            img2.innerHTML= `
-                <div class="history-images img2">
-                    <img src="images/spades.jpg" alt="">
-                </div>`;
+            img2.innerHTML= `<img src="images/spades.jpg" alt="">`;
         } else if(position === 1){
-            img1.innerHTML= `
-                <div class="history-images img1">
-                    <img src="images/spades.jpg" alt="">
-                </div>`;
+            img1.innerHTML= `<img src="images/spades.jpg" alt="">`;
         }
     }
     else if(x === 2){
         if(position === 5){
-        img5.innerHTML= `
-            <div class="history-images img5">
-                <img src="images/heart.jpg" alt="">
-            </div>`;
+        img5.innerHTML= `<img src="images/heart.jpg" alt="">`;
         } else if(position === 4){
-            img4.innerHTML= `
-                <div class="history-images img4">
-                    <img src="images/heart.jpg" alt="">
-                </div>`;
+            img4.innerHTML= `<img src="images/heart.jpg" alt="">`;
         } else if(position === 3){
-            img3.innerHTML= `
-                <div class="history-images img3">
-                    <img src="images/heart.jpg" alt="">
-                </div>`;
+            img3.innerHTML= `<img src="images/heart.jpg" alt="">`;
         } else if(position === 2){
-            img2.innerHTML= `
-                <div class="history-images img2">
-                    <img src="images/heart.jpg" alt="">
-                </div>`;
+            img2.innerHTML= `<img src="images/heart.jpg" alt="">`;
         } else if(position === 1){
-            img1.innerHTML= `
-                <div class="history-images img1">
-                    <img src="images/heart.jpg" alt="">
-                </div>`;
+            img1.innerHTML= `<img src="images/heart.jpg" alt="">`;
         }
     }
     else if(x === 3){
         if(position === 5){
-        img5.innerHTML= `
-            <div class="history-images img5">
-                <img src="images/clubs.jpg" alt="">
-            </div>`;
+        img5.innerHTML= `<img src="images/clubs.jpg" alt="">`;
         } else if(position === 4){
-            img4.innerHTML= `
-                <div class="history-images img4">
-                    <img src="images/clubs.jpg" alt="">
-                </div>`;
+            img4.innerHTML= `<img src="images/clubs.jpg" alt="">`;
         } else if(position === 3){
-            img3.innerHTML= `
-                <div class="history-images img3">
-                    <img src="images/clubs.jpg" alt="">
-                </div>`;
+            img3.innerHTML= `<img src="images/clubs.jpg" alt="">`;
         } else if(position === 2){
-            img2.innerHTML= `
-                <div class="history-images img2">
-                    <img src="images/clubs.jpg" alt="">
-                </div>`;
+            img2.innerHTML= `<img src="images/clubs.jpg" alt="">`;
         } else if(position === 1){
-            img1.innerHTML= `
-                <div class="history-images img1">
-                    <img src="images/clubs.jpg" alt="">
-                </div>`;
+            img1.innerHTML= `<img src="images/clubs.jpg" alt="">`;
         }
     }
     else if(x === 4){
         if(position === 5){
-        img5.innerHTML= `
-            <div class="history-images img5">
-                <img src="images/diamond.jpg" alt="">
-            </div>`;
+        img5.innerHTML= `<img src="images/diamond.jpg" alt="">`;
         } else if(position === 4){
-            img4.innerHTML= `
-                <div class="history-images img4">
-                    <img src="images/diamond.jpg" alt="">
-                </div>`;
+            img4.innerHTML= `<img src="images/diamond.jpg" alt="">`;
         } else if(position === 3){
-            img3.innerHTML= `
-                <div class="history-images img3">
-                    <img src="images/diamond.jpg" alt="">
-                </div>`;
+            img3.innerHTML= `<img src="images/diamond.jpg" alt="">`;
         } else if(position === 2){
-            img2.innerHTML= `
-                <div class="history-images img2">
-                    <img src="images/diamond.jpg" alt="">
-                </div>`;
+            img2.innerHTML= `<img src="images/diamond.jpg" alt="">`;
         } else if(position === 1){
-            img1.innerHTML= `
-                <div class="history-images img1">
-                    <img src="images/diamond.jpg" alt="">
-                </div>`;
+            img1.innerHTML= `<img src="images/diamond.jpg" alt="">`;
         }
     }
 }
