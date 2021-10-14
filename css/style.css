@@ -188,7 +188,7 @@ body .container2-1 {
     column-gap: 4rem;
   }
   body .container3 {
-    margin-top: var(--spacing-medium);
+    margin-top: var(--spacing-small);
   }
   .buttons #red {
     border-color: black;
@@ -201,8 +201,8 @@ body .container2-1 {
     color: white;
   }
   .container1 #image-placeholder {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
   }
   .container1 img {
     max-width: 100%;
