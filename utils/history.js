@@ -8,7 +8,7 @@ const img4 = document.querySelector('.img4');
 const img5 = document.querySelector('.img5');
 
 //construct a array that will retain the book type according to the legend below;
-//                        0 1 2 3 4
+//             0 1 2 3 4
 let history = [0,0,0,0,0];
 //0=noResultYet 
 //1=spades
