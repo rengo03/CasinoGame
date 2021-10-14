@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/root.css">
+   <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Casino GAME</title>
+</head>
+<body>
+    <!-- Title -->
+    <h1>
+        <span id="a1">Red</span> <span id="or"> or</span> <span id="a2">Black</span>
+    </h1>
+    <!-- RandomIMG + history -->
+    <section class="container1">
+        <div id="image-placeholder">
+            <img src="images/back-card.jpg" alt="">
+        </div>
+
+        <div id="history">
+            <div class="history-images img1">
+                <img src="images/back-card.jpg" alt="">
+            </div>
+
+            <div class="history-images img2">
+                <img src="images/back-card.jpg" alt="">
+            </div>
+
+            <div class="history-images img3">
+                <img src="images/back-card.jpg" alt="">
+            </div>
+            
+            <div class="history-images img4">
+                <img src="images/back-card.jpg" alt="">
+            </div>
+            
+            <div class="history-images img5">
+                <img src="images/back-card.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Credit + DoubleIF -->
+    <section class="container2">
+        <div class="container2-1 ">
+            <h2>Credit</h2>
+            <p><span id="credit">1</span>$</p>
+        </div>
+        <div class="container2-1 ">
+            <h2>Double</h2>
+            <p> <span id="double"> </span><span class="money">$</span></p>
+        </div>
+    </section>  
+    <!-- Buttons -->
+    <section class="container3">
+        <div class="buttons">
+            <button id="red">Red</button>
+            <button id="black">Black</button>
+        </div>
+        <button id="retry">
+            <span class="material-icons">
+                refresh
+                </span>
+        </button>
+    </section>
+
+
+    <!-- JS -->
+    <script src="index.js"></script>
+    <script src="utils/radom.js"></script>
+    <script src="utils/conclusion.js"></script>
+    <script src="utils/history.js"></script>
+    <script src="score.js"></script>
+</body>
+</html>

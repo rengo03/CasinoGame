@@ -1,0 +1,224 @@
+/* Reset default CSS  */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: var(--fs-medium);
+}
+
+/* Stylization Title */
+
+h1 #a1 {
+  color: black;
+}
+h1 #a2 {
+  color: red;
+}
+h1 #or {
+  color: #808080;
+}
+
+/* Flex */
+body {
+  margin-top: 8rem; /* -----------------> need to change on media query */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+body .container1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .container2 {
+  display: flex;
+  justify-content: space-between;
+
+  column-gap: 8rem; /* -----------------> need to change on media query */
+}
+
+body .container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: var(--spacing-large);
+}
+
+/* RandomIMG */
+.container1 #image-placeholder {
+  height: 16rem;
+  width: 16rem;
+  /* border: solid 2px black; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 #history {
+  height: 10rem;
+  width: 30rem;
+  /* border: solid 2px black; */
+}
+
+/* History */
+.container1 #history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Compartimentare elemente istoric */
+.container1 .history-images {
+  width: 18%;
+  height: 60%;
+  /* border: solid 2px black; */
+}
+/* Potrivirea imaginilor responsive */
+.container1 .history-images img {
+  max-width: 100%;
+  height: 100%;
+}
+/* Credit + Double */
+body .container2-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2-1 p {
+  font-size: 3rem;
+  color: #808080;
+}
+.container2-1 p .money {
+  color: red;
+}
+.container2-1 #credit {
+  color: #808080;
+}
+
+.container2-1 #double {
+  color: red;
+}
+
+/* Buttons */
+.buttons button {
+  margin: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  width: 10rem;
+}
+
+.buttons #red {
+  border: solid 0.3rem red;
+  color: red;
+  background-color: white;
+}
+.buttons #black {
+  border: solid 0.3rem black;
+  color: black;
+  background-color: white;
+}
+.container3 #retry {
+  margin-top: 1.75rem;
+  width: 6rem;
+  height: auto;
+  margin: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: solid 0.3rem black;
+  background-color: #808080;
+}
+.container3 #retry .material-icons {
+  vertical-align: middle;
+  font-size: 3rem;
+  color: black;
+}
+#retry:hover {
+  border-color: #808080;
+  background-color: white;
+  cursor: pointer;
+}
+#black:hover {
+  border-color: red;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#red:hover {
+  border-color: black;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+/* Media query */
+@media (max-width: 768px) {
+  body {
+    margin-top: 0;
+  }
+  body .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .buttons #red {
+    border-color: black;
+    background-color: red;
+    color: white;
+  }
+  .buttons #black {
+    border-color: red;
+    background-color: black;
+    color: white;
+  }
+  .container1 #image-placeholder {
+    height: 10rem;
+    width: 10rem;
+  }
+  .container1 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .container1 #history {
+    height: 7rem;
+    width: 21rem;
+  }
+}
+@media (max-width: 600px) {
+  .container1 #history {
+    height: 9rem;
+    width: 24rem;
+  }
+}
+@media (max-width: 400px) {
+  body .container3 .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
